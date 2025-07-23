@@ -1,0 +1,64 @@
+nav, article, aside, footer {
+  background-color: white;
+  padding: 1%;
+}
+
+
+nav {
+    border: 2px solid red;
+  height: 50px;
+  background-color: #ff80ff;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+nav ul {
+    border: 2px solid green;
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+    border: 2px solid yellow;
+    
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+    border: 2px solid rgb(114, 14, 228);
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav form {
+    border: 2px solid blue;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+
+input {
+  font-size: 1.6rem;
+  height: 32px;
+}
+
+input[type="search"] {
+  flex: 3;
+}
+
+input[type="submit"] {
+  flex: 1;
+  margin-left: 1rem;
+  background: #333;
+  border: 0;
+  color: white;
+}
